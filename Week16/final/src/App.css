@@ -1,0 +1,201 @@
+/*div {
+  outline: 1px solid red;
+}*/
+
+.loginCard{
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
+.Button :hover{
+  color: black;
+}
+
+.Login-component {
+  background-image: './movie_reel.webp';
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.downloads_modal {
+  align-items: center;
+}
+
+.subForm {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.songList {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.774);
+
+  border-radius: 7px;
+}
+
+.pictureDiv {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.downloadAlign {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width: 100%;
+}
+
+.alignCenter {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.buttonGroup {
+  padding: 1rem;
+}
+
+.newSong {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.newSong2 {
+  justify-content: center;
+}
+
+.customBg {
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.76);
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.downloadButn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 90%
+
+}
+
+.musicCards {
+  display: flex;
+  flex: row;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 2rem;
+  border-radius: 7px;
+  width: 100%;
+}
+
+#deleteSongBtn {
+  width: 20px;
+  height: 20px;
+}
+
+#playSongBtn {
+  width: 20px;
+  height: 20px;
+}
+
+#add-new-song {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#NavBar{
+  display: inline;
+}
+
+#indiCard {
+  margin: 1rem;
+}
+
+#profileBtn {
+  display: inline;
+}
+
+#homeBtn :hover{
+  display: inline;
+  
+}
+
+#musicBtn{
+  display: inline;
+}
+
+#welcomeButton {
+  margin: 1rem;
+}
+
+#script {
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: red;
+}
+
+#script2 {
+  text-align: center;
+  color: black;
+}
+
+#submitId{
+  margin-top: 1rem;
+}
+
+#emailId{
+  margin-bottom: 1rem;
+}
+
+#modalScript {
+  text-align: center;
+}
+
+#modal-title-id {
+  text-align: center;
+}
+
+#navButtons{
+  color: black;
+}
+
+#spinner {
+  height: 5rem;
+  width: 5rem;
+}
+
+@media screen and (min-width: 980px) and (max-width: 1260px) {
+  a.x-btn-navbar {
+    display: block;
+    float: right;
+  }
+
+  nav.x-nav-wrap.desktop {
+    display: none;
+  }
+  .x-nav-wrap.mobile:not(.x-collapsed) {
+    display: block !important;
+  }
+}
